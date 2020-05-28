@@ -10,10 +10,12 @@ function App() {
     <div className="App container">
       <Router>
         <Navbar />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/portofolio" component={Portofolio} />
+        <Home />
+        <div className="mt-5 pt-5">
+          <Portofolio />
+        </div>
       </Router>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
