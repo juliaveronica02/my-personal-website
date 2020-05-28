@@ -5,12 +5,13 @@ import {
   faInstagram,
   faLinkedinIn,
   faWhatsapp,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default class componentName extends Component {
   render() {
     return (
-      <div className="social-media mt-5 pt-3">
+      <div className="social-media pt-4">
         {/* facebook-icon. */}
         <a
           href="https://www.facebook.com/aaozora2/"
@@ -38,6 +39,13 @@ export default class componentName extends Component {
           className="telegram-icon pr-3"
         >
           <FontAwesomeIcon icon={faWhatsapp} size="2x" />
+        </a>
+        {/* Github-icon */}
+        <a
+          href="https://github.com/juliaveronica02"
+          className="github-icon pr-3"
+        >
+          <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
       </div>
     );
