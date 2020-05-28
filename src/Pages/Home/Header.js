@@ -6,7 +6,7 @@ import SocialMedia from "./Social-Media";
 export default class componentName extends Component {
   render() {
     return (
-      <div>
+      <div id="/">
         <div className="bg">
           <div className="container pt-5 d-flex justify-content-center">
             <div className="row bg-pic">
@@ -19,10 +19,9 @@ export default class componentName extends Component {
                 </h2>
                 <hr className="hr" />
                 <p>
-                  I'am Julia Veronica..I currently hunt programming job. I want
-                  to improve my programming like making a website. I have
-                  background programming but it was C#. Now I join Glints X
-                  Impact Byte "Full Stack Developer Javascript".
+                  I'am Julia Veronica.. I want to improve my programming. I have
+                  background programming but it was Unity C#. Now I join Glints
+                  X Impact Byte "Full Stack Developer Javascript".
                 </p>
                 <SocialMedia />
               </div>

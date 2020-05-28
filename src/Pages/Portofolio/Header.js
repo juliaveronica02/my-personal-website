@@ -15,16 +15,10 @@ import Photography from "../../Images/photography.png";
 export default class componentName extends Component {
   render() {
     return (
-      <div>
+      <div id="/portofolio">
         <div className="text-center text-dark ccard mt-5 mb-5">
           <h2 className="mt-auto">My Ability</h2>
-          <hr
-            className="hr"
-            style={{
-              width: "10%",
-              border: "20%",
-            }}
-          />
+          <hr className="horizontal-line" />
         </div>
         <div className="row pl-2">
           {/* HTML CARD. */}
@@ -35,8 +29,8 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">HTML</h4>
-                <div class="text-ellipsis">
-                  <span class="text-concat">
+                {/* <div class="text-ellipsis"> */}
+                {/* <span class="text-concat">
                     Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
                     fugit mandamus no mea. Sit tale facete voluptatum ea, ad
                     sumo altera scripta per, eius ullum feugait id duo. At
@@ -44,15 +38,15 @@ export default class componentName extends Component {
                     posse facilisis eos. Aliquid philosophia contentiones id
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div>
+                  </span> */}
+                {/* </div> */}
               </div>
-              <button
+              {/* <button
                 className="btn btn-primary justify-content-center"
                 style={{ width: "55%" }}
               >
                 ReadMore >>
-              </button>
+              </button> */}
             </div>
           </div>
           {/* CSS CARD. */}
@@ -63,7 +57,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">CSS</h4>
-                <div class="text-ellipsis">
+                {/* <div class="text-ellipsis">
                   <span class="text-concat">
                     Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
                     fugit mandamus no mea. Sit tale facete voluptatum ea, ad
@@ -73,14 +67,14 @@ export default class componentName extends Component {
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in.
                   </span>
-                </div>
+                </div> */}
               </div>
-              <button
+              {/* <button
                 className="btn btn-primary justify-content-center"
                 style={{ width: "55%" }}
               >
                 ReadMore >>
-              </button>
+              </button> */}
             </div>
           </div>
           {/* BOOTSTRAP CARD. */}
@@ -91,7 +85,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Bootstrap</h4>
-                <div class="text-ellipsis">
+                {/* <div class="text-ellipsis">
                   <span class="text-concat">
                     Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
                     fugit mandamus no mea. Sit tale facete voluptatum ea, ad
@@ -101,14 +95,14 @@ export default class componentName extends Component {
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in.
                   </span>
-                </div>
+                </div> */}
               </div>
-              <button
+              {/* <button
                 className="btn btn-primary justify-content-center"
                 style={{ width: "55%" }}
               >
                 ReadMore >>
-              </button>
+              </button> */}
             </div>
           </div>
           {/* Javascript card. */}
@@ -119,7 +113,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Javascript</h4>
-                <div class="text-ellipsis">
+                {/* <div class="text-ellipsis">
                   <span class="text-concat">
                     Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
                     fugit mandamus no mea. Sit tale facete voluptatum ea, ad
@@ -129,14 +123,14 @@ export default class componentName extends Component {
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in.
                   </span>
-                </div>
+                </div> */}
               </div>
-              <button
+              {/* <button
                 className="btn btn-primary justify-content-center"
                 style={{ width: "55%" }}
               >
                 ReadMore >>
-              </button>
+              </button> */}
             </div>
           </div>
           {/* Reactjs card. */}
@@ -147,7 +141,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Reactjs</h4>
-                <div class="text-ellipsis">
+                {/* <div class="text-ellipsis">
                   <span class="text-concat">
                     Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
                     fugit mandamus no mea. Sit tale facete voluptatum ea, ad
@@ -157,14 +151,14 @@ export default class componentName extends Component {
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in.
                   </span>
-                </div>
+                </div> */}
               </div>
-              <button
+              {/* <button
                 className="btn btn-primary justify-content-center"
                 style={{ width: "55%" }}
               >
                 ReadMore >>
-              </button>
+              </button> */}
             </div>
           </div>
           {/* Nodejs */}
@@ -175,7 +169,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Nodejs</h4>
-                <div class="text-ellipsis">
+                {/* <div class="text-ellipsis">
                   <span class="text-concat">
                     Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
                     fugit mandamus no mea. Sit tale facete voluptatum ea, ad
@@ -184,16 +178,15 @@ export default class componentName extends Component {
                     posse facilisis eos. Aliquid philosophia contentiones id
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div>
+                  </span> */}
               </div>
-              <button
+            </div>
+            {/* <button
                 className="btn btn-primary justify-content-center"
                 style={{ width: "55%" }}
               >
                 ReadMore >>
-              </button>
-            </div>
+              </button> */}
           </div>
           {/* Database */}
           <div className="col-md-3 mb-3">
@@ -203,7 +196,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Database</h4>
-                <div class="text-ellipsis">
+                {/* <div class="text-ellipsis">
                   <span class="text-concat">
                     Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
                     fugit mandamus no mea. Sit tale facete voluptatum ea, ad
@@ -213,14 +206,14 @@ export default class componentName extends Component {
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in.
                   </span>
-                </div>
+                </div> */}
               </div>
-              <button
+              {/* <button
                 className="btn btn-primary justify-content-center"
                 style={{ width: "55%" }}
               >
                 ReadMore >>
-              </button>
+              </button> */}
             </div>
           </div>
           {/* C# */}
@@ -231,7 +224,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">C#</h4>
-                <div class="text-ellipsis">
+                {/* <div class="text-ellipsis">
                   <span class="text-concat">
                     Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
                     fugit mandamus no mea. Sit tale facete voluptatum ea, ad
@@ -241,14 +234,14 @@ export default class componentName extends Component {
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in.
                   </span>
-                </div>
+                </div> */}
               </div>
-              <button
+              {/* <button
                 className="btn btn-primary justify-content-center"
                 style={{ width: "55%" }}
               >
                 ReadMore >>
-              </button>
+              </button> */}
             </div>
           </div>
           {/* Adobe Photoshop */}
@@ -259,7 +252,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Adobe Photoshop</h4>
-                <div class="text-ellipsis">
+                {/* <div class="text-ellipsis">
                   <span class="text-concat">
                     Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
                     fugit mandamus no mea. Sit tale facete voluptatum ea, ad
@@ -269,42 +262,14 @@ export default class componentName extends Component {
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in.
                   </span>
-                </div>
+                </div> */}
               </div>
-              <button
+              {/* <button
                 className="btn btn-primary justify-content-center"
                 style={{ width: "55%" }}
               >
                 ReadMore >>
-              </button>
-            </div>
-          </div>
-          {/* Photography */}
-          <div className="col-md-3 mb-3">
-            <div className="card" style={{ width: "15rem" }}>
-              <div className="rounded-circle">
-                <img src={Photography} alt="..." />
-              </div>
-              <div className="card-body">
-                <h4 className="card-title text-center">Photography</h4>
-                <div class="text-ellipsis">
-                  <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
-                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
-                    sumo altera scripta per, eius ullum feugait id duo. At
-                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
-                    posse facilisis eos. Aliquid philosophia contentiones id
-                    eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div>
-              </div>
-              <button
-                className="btn btn-primary justify-content-center"
-                style={{ width: "55%" }}
-              >
-                ReadMore >>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

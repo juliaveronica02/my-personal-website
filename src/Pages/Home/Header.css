@@ -54,13 +54,13 @@
 }
 .profile img {
   border: 100% solid #000000 !important;
-  width: 300px;
+  width: 240px;
   height: 300px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .hr {
   background-color: #bf1111;
   border-style: none;
   height: 2px;
-  width: 40%;
+  width: 40% !important;
 }

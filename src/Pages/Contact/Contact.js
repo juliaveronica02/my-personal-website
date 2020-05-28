@@ -6,7 +6,7 @@ export default class componentName extends Component {
   render() {
     return (
       // bagi dua colom untuk buat submit form dan keterangan lokasi
-      <div className="container mt-5 mb-4">
+      <div className="container mt-5 mb-4" id="/contact">
         <h3 className="text-center">Contact Me</h3>
         <hr className="hr" />
         <br />

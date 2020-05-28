@@ -1,12 +1,13 @@
 import React, { Component } from "react";
+import "./Hire.css";
 
 export default class componentName extends Component {
   render() {
     return (
-      <div className="container ">
+      <div className="container mt-4" id="/hire">
         <div className="section-title">
           <h2 className="mx-auto text-center">Resume</h2>
-          <hr className="hr mb-5" />
+          <hr className="hr2 mb-5" />
         </div>
         <div className="row">
           <div className="col-lg-6">

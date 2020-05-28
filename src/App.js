@@ -16,8 +16,8 @@ function App() {
         <div className="mt-5 pt-5">
           <Portofolio />
         </div>
-        <Contact />
         <Hire />
+        <Contact />
       </Router>
       <Footer />
     </div>
