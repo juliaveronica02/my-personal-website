@@ -56,11 +56,12 @@ export default class componentName extends Component {
                 <em>UIB, Batam, Indonesia</em>
               </p>
               <p>
-                Iam not degree but I join some activity from my collage. The
-                example is Buddy and Glints Academy X Impact Byte.
+                I am not a graduate but I joined some of the activities in my
+                college. An example is Buddy and Glints Academy X Impact Byte.
               </p>
             </div>
           </div>
+          <hr class="vertical" />
           <div className="col-lg-6">
             <h3 className="resume-title"> Experience</h3>
             <div className="resume-item">

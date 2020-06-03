@@ -15,10 +15,10 @@
   text-align: justify;
 }
 .text-ellipsis::after {
-  content: "...";
+  /* content: "..."; */
   position: absolute;
-  right: 20px;
-  bottom: 40px;
+  right: 86%;
+  bottom: 50px;
 }
 .rounded-circle {
   color: white;

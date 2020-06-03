@@ -4,3 +4,13 @@
   height: 2px;
   width: 10% !important;
 }
+input.form-control {
+  width: 100%;
+}
+textarea.form-control {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

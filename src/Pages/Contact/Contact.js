@@ -9,11 +9,21 @@ export default class componentName extends Component {
       <div className="container mt-5 mb-4" id="/contact">
         <h3 className="text-center">Contact Me</h3>
         <hr className="hr" />
-        <br />
-
-        <div className="row">
-          <div className="col-md-8">
-            <form action="/post" method="post">
+        <div class="row">
+          <div class="col-md-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0093712115136!2d104.02249791421347!3d1.1537959624967078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d9891f0f065b81%3A0xce0af55f7ad4f2c2!2sBengkong%20Jaya%20Housing%20Complex!5e0!3m2!1sen!2sid!4v1585363445287!5m2!1sen!2sid"
+              width="100%"
+              height="450"
+              frameborder="0"
+              style={{ border: "0" }}
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            />
+          </div>
+          <div className="col-md-4">
+            <form action="https://formspree.io/meqradna" method="POST">
               <input
                 className="form-control"
                 name="name"
@@ -28,14 +38,14 @@ export default class componentName extends Component {
               <br />
               <input
                 className="form-control"
-                name="email"
+                name="_replyto"
                 placeholder="E-mail..."
               />
               <br />
               <textarea
                 className="form-control"
-                name="text"
-                placeholder="How can I help you?"
+                name="message"
+                placeholder="What can I help you?"
                 style={{ height: "150px" }}
               ></textarea>
               <br />
