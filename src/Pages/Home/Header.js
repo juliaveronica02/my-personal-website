@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Header.css";
+import "./Home.css";
 import Me from "../../Images/1.jpeg";
 import SocialMedia from "./Social-Media";
 
@@ -17,7 +17,7 @@ export default class componentName extends Component {
                 <h2 className="margin mt-5 text-decoration-underline">
                   Julia Veronica
                 </h2>
-                <hr className="hr" />
+                <hr className="home" />
                 <p>
                   I'am Julia Veronica.. I want to improve my programming. I have
                   background programming but it was Unity C#. Now I join Glints
