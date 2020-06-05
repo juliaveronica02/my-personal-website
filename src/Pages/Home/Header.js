@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Home.css";
 import Me from "../../Images/1.jpeg";
 import SocialMedia from "./Social-Media";
+import CV from "./myCV.pdf";
 
 export default class componentName extends Component {
   render() {
@@ -14,15 +15,20 @@ export default class componentName extends Component {
                 <img src={Me} alt="profile" />
               </div>
               <div className="col-md-6 mx-5 my-3 text-center">
-                <h2 className="margin mt-5 text-decoration-underline">
-                  Julia Veronica
-                </h2>
-                <hr className="home" />
+                <h2 className="md-5 mt-5">Julia Veronica</h2>
+                <hr className="md home" />
                 <p>
                   I'am Julia Veronica.. I want to improve my programming. I have
                   background programming but it was Unity C#. Now I join Glints
                   X Impact Byte "Full Stack Developer Javascript".
                 </p>
+                <div>
+                  <a href={CV} download="My CV">
+                    <button class="btn btn-primary mt-3">
+                      <i className="fa fa-download"></i> Download CV
+                    </button>
+                  </a>
+                </div>
                 <SocialMedia />
               </div>
             </div>

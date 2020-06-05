@@ -18,10 +18,10 @@ export default class componentName extends Component {
       // Ability
       <div id="/portofolio">
         <div className="text-center text-dark ccard mt-5 mb-5">
-          <h2 className="mt-auto">My Ability</h2>
+          <h2 className="mt-5">My Ability</h2>
           <hr className="horizontal-line" />
         </div>
-        <div className="row pl-2">
+        <div className="row pl-2 d-flex justify-content-center">
           {/* HTML CARD. */}
           <div className="col-md-3 mb-3">
             <div className="card" style={{ width: "15rem" }}>

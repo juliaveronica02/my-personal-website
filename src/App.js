@@ -15,9 +15,9 @@ function App() {
         <Home />
         <div className="mt-5 pt-5">
           <Portofolio />
+          <Hire />
+          <Contact />
         </div>
-        <Hire />
-        <Contact />
       </Router>
       <Footer />
     </div>
