@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Portfolio.css";
 import WeatherApp from "./../../Images/WeatherApp.png"
 import trishop from "./../../Images/trishop.png"
+import chevrolet from "./../../Images/chevrolet.png"
 export default class componentName extends Component {
   render() {
     return (
@@ -26,7 +27,8 @@ export default class componentName extends Component {
                     posse facilisis eos. Aliquid philosophia contentiones id
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in. */}
-                    This is my portfolio which is using open weather api. This app build using HTML, CSS, Bootstrap and Javascript. 
+                    This is my portfolio which is using open weather api. This app build using HTML, CSS, 
+                    Bootstrap and Javascript. 
                   </span>
                 </div>
               </div>
@@ -70,14 +72,14 @@ export default class componentName extends Component {
               </div>
             </div>
             </div>
-            {/* Test */}
+            {/* Chevrolet */}
             <div className="col-md-3 mb-3 pb-0">
             <div className="card" style={{ width: "15rem" }}>
               <div className="rounded-circle pb-0">
-                <img src={trishop} alt="..." />
+                <img src={chevrolet} alt="..." />
               </div>
               <div className="card-body pb-0">
-                <h4 className="card-title text-center">Tri-shop</h4>
+                <h4 className="card-title text-center">Company Profile</h4>
                 <div class="text-ellipsis">
                   <span class="text-concat">
                     {/* Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
@@ -87,14 +89,14 @@ export default class componentName extends Component {
                     posse facilisis eos. Aliquid philosophia contentiones id
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in. */}
-                    It is e-commerce project. This app build by using React.js and Node.js. 
-                    My role as a backend, on this project.
+                    Chevrolet is a company profile. I track this website to be my portfolio.
+                    At here I using HTML, CSS and Bootstrap.
                   </span>
                 </div>
               </div>
               <div className="mb-2 d-flex justify-content-center mt-2 mt-1">
                 <button className="btn btn-primary" style={{ width: "25%" }}>
-                  <a  className="text-light" href="https://tri-shop.netlify.app/#/">
+                  <a  className="text-light" href="https://companyproject-julia.netlify.app/#">
                     Link
                   </a>
                 </button>

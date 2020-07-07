@@ -62,7 +62,7 @@ export default class componentName extends Component {
             </div>
           </div>
           <hr class="vertical" />
-          <div className="col-lg-6">
+          <div className="col-lg-6 pl-4">
             <h3 className="resume-title"> Experience</h3>
             <div className="resume-item">
               <h4>Junior Programmer</h4>
