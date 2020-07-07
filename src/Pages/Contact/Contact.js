@@ -17,6 +17,7 @@ export default class componentName extends Component {
               width="100%"
               height="450"
               frameborder="0"
+              title="myFrame"
               style={{ border: "0" }}
               allowfullscreen=""
               aria-hidden="false"
