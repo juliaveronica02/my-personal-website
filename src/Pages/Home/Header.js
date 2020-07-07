@@ -17,11 +17,17 @@ export default class componentName extends Component {
               <div className="col-md-6 mx-5 my-3 text-center">
                 <h2 className="md-5 mt-5">Julia Veronica</h2>
                 <hr className="md home" />
-                <p>
-                  I'am Julia Veronica.. I want to improve my programming. I have
+                <h6 id="overflowTest">
+                  {/* I'am Julia Veronica.. I want to improve my programming. I have
                   background programming but it was Unity C#. Now I join Glints
-                  X Impact Byte "Full Stack Developer Javascript".
-                </p>
+                  X Impact Byte "Full Stack Developer Javascript". */}
+                  Julia is a fresh graduate from Glints Academy batch 6 Impact Byte who takes 
+                  Full Stack Javascript course during her time there. She started programming 
+                  by learning HTML, CSS, and Javascript. During high school, she also had an 
+                  internship for 4 months as a Junior Programmer. Julia is a hard worker, 
+                  always eager to learn new things, and she can also work individually or 
+                  in a team. 
+                </h6>
                 <div>
                   <a href={CV} download="My CV">
                     <button class="btn btn-primary mt-3">

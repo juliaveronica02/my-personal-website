@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Portfolio.css";
+import WeatherApp from "./../../Images/WeatherApp.png"
+import trishop from "./../../Images/trishop.png"
 export default class componentName extends Component {
   render() {
     return (
@@ -7,32 +9,130 @@ export default class componentName extends Component {
         <h3 className="text-center">Portfolio</h3>
         <hr className="portfolio" />
         <div className="row pl-2">
-          <div className="col-md-3 mb-3">
+              {/* weather app */}
+          <div className="col-md-3 mb-3 pb-0">
             <div className="card" style={{ width: "15rem" }}>
-              <div className="rounded-circle">
-                {/* <img src={Photography} alt="..." /> */}
+              <div className="rounded-circle pb-0">
+                <img src={WeatherApp} alt="..." />
               </div>
-              <div className="card-body">
-                <h4 className="card-title text-center">Photography</h4>
-                {/* <div class="text-ellipsis">
+              <div className="card-body pb-0">
+                <h4 className="card-title text-center">Weather App</h4>
+                <div class="text-ellipsis">
                   <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
+                    {/* Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
                     fugit mandamus no mea. Sit tale facete voluptatum ea, ad
                     sumo altera scripta per, eius ullum feugait id duo. At
                     nominavi pericula persecuti ius, sea at sonet tincidunt, cu
                     posse facilisis eos. Aliquid philosophia contentiones id
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
+                    Eu has mentitum conclusionemque, primis deterruisset est in. */}
+                    This is my portfolio which is using open weather api. This app build using HTML, CSS, Bootstrap and Javascript. 
                   </span>
-                </div> */}
+                </div>
               </div>
-              {/* <div className="mb-2 d-flex justify-content-center">
-                <button className="btn btn-primary" style={{ width: "55%" }}>
-                  ReadMore >>
+              <div className="mb-2 d-flex justify-content-center mt-2 mt-1">
+                <button className="btn btn-primary" style={{ width: "25%" }}>
+                  <a  className="text-light" href="https://weatherapp-julia.netlify.app/">
+                    Link
+                  </a>
                 </button>
-              </div> */}
+              </div>
             </div>
           </div>
+            {/* trishop */}
+            <div className="col-md-3 mb-3 pb-0">
+            <div className="card" style={{ width: "15rem" }}>
+              <div className="rounded-circle pb-0">
+                <img src={trishop} alt="..." />
+              </div>
+              <div className="card-body pb-0">
+                <h4 className="card-title text-center">Tri-shop</h4>
+                <div class="text-ellipsis">
+                  <span class="text-concat">
+                    {/* Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
+                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
+                    sumo altera scripta per, eius ullum feugait id duo. At
+                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
+                    posse facilisis eos. Aliquid philosophia contentiones id
+                    eos, per cu atqui option disputationi, no vis nobis vidisse.
+                    Eu has mentitum conclusionemque, primis deterruisset est in. */}
+                    It is e-commerce project. This app build by using React.js and Node.js. 
+                    My role as a backend, on this project.
+                  </span>
+                </div>
+              </div>
+              <div className="mb-2 d-flex justify-content-center mt-2 mt-1">
+                <button className="btn btn-primary" style={{ width: "25%" }}>
+                  <a  className="text-light" href="https://tri-shop.netlify.app/#/">
+                    Link
+                  </a>
+                </button>
+              </div>
+            </div>
+            </div>
+            {/* Test */}
+            <div className="col-md-3 mb-3 pb-0">
+            <div className="card" style={{ width: "15rem" }}>
+              <div className="rounded-circle pb-0">
+                <img src={trishop} alt="..." />
+              </div>
+              <div className="card-body pb-0">
+                <h4 className="card-title text-center">Tri-shop</h4>
+                <div class="text-ellipsis">
+                  <span class="text-concat">
+                    {/* Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
+                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
+                    sumo altera scripta per, eius ullum feugait id duo. At
+                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
+                    posse facilisis eos. Aliquid philosophia contentiones id
+                    eos, per cu atqui option disputationi, no vis nobis vidisse.
+                    Eu has mentitum conclusionemque, primis deterruisset est in. */}
+                    It is e-commerce project. This app build by using React.js and Node.js. 
+                    My role as a backend, on this project.
+                  </span>
+                </div>
+              </div>
+              <div className="mb-2 d-flex justify-content-center mt-2 mt-1">
+                <button className="btn btn-primary" style={{ width: "25%" }}>
+                  <a  className="text-light" href="https://tri-shop.netlify.app/#/">
+                    Link
+                  </a>
+                </button>
+              </div>
+            </div>
+            </div>
+            {/* Test */}
+            <div className="col-md-3 mb-3 pb-0">
+            <div className="card" style={{ width: "15rem" }}>
+              <div className="rounded-circle pb-0">
+                <img src={trishop} alt="..." />
+              </div>
+              <div className="card-body pb-0">
+                <h4 className="card-title text-center">Tri-shop</h4>
+                <div class="text-ellipsis">
+                  <span class="text-concat">
+                    {/* Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
+                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
+                    sumo altera scripta per, eius ullum feugait id duo. At
+                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
+                    posse facilisis eos. Aliquid philosophia contentiones id
+                    eos, per cu atqui option disputationi, no vis nobis vidisse.
+                    Eu has mentitum conclusionemque, primis deterruisset est in. */}
+                    It is e-commerce project. This app build by using React.js and Node.js. 
+                    My role as a backend, on this project.
+                  </span>
+                </div>
+              </div>
+              <div className="mb-2 d-flex justify-content-center mt-2 mt-1">
+                <button className="btn btn-primary" style={{ width: "25%" }}>
+                  <a  className="text-light" href="https://tri-shop.netlify.app/#/">
+                    Link
+                  </a>
+                </button>
+              </div>
+            </div>
+            </div>
+            {/*  */}
         </div>
       </div>
     );
