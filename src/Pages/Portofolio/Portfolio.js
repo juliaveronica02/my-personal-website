@@ -9,10 +9,11 @@ export default class componentName extends Component {
       <div className="container mt-4 mb-4" id="/portofolio">
         <h3 className="text-center">Portfolio</h3>
         <hr className="portfolio" />
-        <div className="row pl-2">
+        <div className="row mx-5">
               {/* weather app */}
-          <div className="col-md-3 mb-3 pb-0">
-            <div className="card" style={{ width: "15rem" }}>
+          <div className="col-md-4 mb-3 pb-0">
+          <div className="card">
+            {/* <div className="card" style={{ width: "15rem" }}> */}
               <div className="rounded-circle pb-0">
                 <img src={WeatherApp} alt="..." />
               </div>
@@ -42,8 +43,9 @@ export default class componentName extends Component {
             </div>
           </div>
             {/* trishop */}
-            <div className="col-md-3 mb-3 pb-0">
-            <div className="card" style={{ width: "15rem" }}>
+            <div className="col-md-4 mb-3 pb-0">
+            <div className="card">
+            {/* <div className="card" style={{ width: "15rem" }}> */}
               <div className="rounded-circle pb-0">
                 <img src={trishop} alt="..." />
               </div>
@@ -73,8 +75,9 @@ export default class componentName extends Component {
             </div>
             </div>
             {/* Chevrolet */}
-            <div className="col-md-3 mb-3 pb-0">
-            <div className="card" style={{ width: "15rem" }}>
+            <div className="col-md-4 mb-3 pb-0">
+            <div className="card">
+            {/* <div className="card" style={{ width: "15rem" }}> */}
               <div className="rounded-circle pb-0">
                 <img src={chevrolet} alt="..." />
               </div>
@@ -104,7 +107,7 @@ export default class componentName extends Component {
             </div>
             </div>
             {/* Test */}
-            <div className="col-md-3 mb-3 pb-0">
+            <div className="col-md-4 mb-3 pb-0">
             <div className="card" style={{ width: "15rem" }}>
               <div className="rounded-circle pb-0">
                 <img src={trishop} alt="..." />
