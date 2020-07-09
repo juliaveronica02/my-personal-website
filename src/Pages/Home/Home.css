@@ -37,7 +37,8 @@
 
   /* box-shadow. */
   /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
-  box-shadow: 2px 2px 5px 5px rgb(19, 51, 53);
+  box-shadow: 2px 2px 2px 2px rgb(19, 51, 53);
+  /* box-shadow: 2px 2px 5px 5px rgb(19, 51, 53); */
   /* background-color: #ccc; */
   width: 80%;
   /* width: auto; */
