@@ -6,6 +6,8 @@ import {
   faLinkedinIn,
   faWhatsapp,
   faGithub,
+  faDiscord,
+  faTwitter
 } from "@fortawesome/free-brands-svg-icons";
 
 export default class componentName extends Component {
@@ -14,21 +16,21 @@ export default class componentName extends Component {
       <div className="social-media pt-4">
         {/* facebook-icon. */}
         <a
-          href="https://www.facebook.com/aaozora2/"
+          href="https://www.facebook.com/juliaveronica02/"
           className="facebook-icon pr-3"
         >
           <FontAwesomeIcon icon={faFacebook} size="2x" />
         </a>
         {/* instagram-icon */}
         <a
-          href="https://www.instagram.com/juve2206/"
+          href="https://www.instagram.com/juliaveronica.2/"
           className="instagram-icon pr-3"
         >
           <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
         {/* LinkIn-icon */}
         <a
-          href="https://www.linkedin.com/in/julia-veronica-672772195/"
+          href="https://www.linkedin.com/in/julia-veronica/"
           className="line-icon pr-3"
         >
           <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
@@ -46,6 +48,20 @@ export default class componentName extends Component {
           className="github-icon pr-3"
         >
           <FontAwesomeIcon icon={faGithub} size="2x" />
+        </a>
+        {/* Discord-icon */}
+        <a
+          href="https://discord.com/channels/@me"
+          className="github-icon pr-3"
+        >
+          <FontAwesomeIcon icon={faDiscord} size="2x" />
+        </a>
+        {/* Twitter-icon */}
+        <a
+          href="https://twitter.com/juliaveronica02"
+          className="github-icon pr-3"
+        >
+          <FontAwesomeIcon icon={faTwitter} size="2x" />
         </a>
       </div>
     );
