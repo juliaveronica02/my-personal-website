@@ -108,7 +108,6 @@ export default class componentName extends Component {
               </div>
             </div>
       </div>
-            
             {/* Calculator */}
             <div className="col-md-4 mb-3 pb-0">
             <div className="card">
