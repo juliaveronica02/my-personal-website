@@ -3,6 +3,8 @@ import "./Portfolio.css";
 import WeatherApp from "./../../Images/WeatherApp.png"
 import trishop from "./../../Images/trishop.png"
 import chevrolet from "./../../Images/chevrolet.png"
+import calculator from "./../../Images/calculator.png"
+
 export default class componentName extends Component {
   render() {
     return (
@@ -12,8 +14,8 @@ export default class componentName extends Component {
         <div className="row mx-5">
               {/* weather app */}
           <div className="col-md-4 mb-3 pb-0">
-          <div className="card">
-            {/* <div className="card" style={{ width: "15rem" }}> */}
+            <div className="card">
+            {/* <div className="card" style={{ width: "14rem" }}> */}
               <div className="rounded-circle pb-0">
                 <img src={WeatherApp} alt="..." />
               </div>
@@ -41,11 +43,11 @@ export default class componentName extends Component {
                 </button>
               </div>
             </div>
-          </div>
+      </div>
             {/* trishop */}
             <div className="col-md-4 mb-3 pb-0">
             <div className="card">
-            {/* <div className="card" style={{ width: "15rem" }}> */}
+            {/* <div className="card" style={{ width: "14rem" }}> */}
               <div className="rounded-circle pb-0">
                 <img src={trishop} alt="..." />
               </div>
@@ -77,7 +79,7 @@ export default class componentName extends Component {
             {/* Chevrolet */}
             <div className="col-md-4 mb-3 pb-0">
             <div className="card">
-            {/* <div className="card" style={{ width: "15rem" }}> */}
+            {/* <div className="card" style={{ width: "14rem" }}> */}
               <div className="rounded-circle pb-0">
                 <img src={chevrolet} alt="..." />
               </div>
@@ -105,15 +107,17 @@ export default class componentName extends Component {
                 </button>
               </div>
             </div>
-            </div>
-            {/* Test */}
+      </div>
+            
+            {/* Calculator */}
             <div className="col-md-4 mb-3 pb-0">
-            <div className="card" style={{ width: "15rem" }}>
+            <div className="card">
+            {/* <div className="card" style={{ width: "14rem" }}> */}
               <div className="rounded-circle pb-0">
-                <img src={trishop} alt="..." />
+                <img src={calculator} alt="..." />
               </div>
               <div className="card-body pb-0">
-                <h4 className="card-title text-center">Tri-shop</h4>
+                <h4 className="card-title text-center">Calculator</h4>
                 <div class="text-ellipsis">
                   <span class="text-concat">
                     {/* Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
@@ -123,20 +127,20 @@ export default class componentName extends Component {
                     posse facilisis eos. Aliquid philosophia contentiones id
                     eos, per cu atqui option disputationi, no vis nobis vidisse.
                     Eu has mentitum conclusionemque, primis deterruisset est in. */}
-                    It is e-commerce project. This app build by using React.js and Node.js. 
-                    My role as a backend, on this project.
+                    This is basic responsive calculator and symbols (+, -, *, /) using React.js.
                   </span>
                 </div>
               </div>
               <div className="mb-2 d-flex justify-content-center mt-2 mt-1">
                 <button className="btn btn-primary" style={{ width: "25%" }}>
-                  <a  className="text-light" href="https://tri-shop.netlify.app/#/">
+                  <a  className="text-light" href="https://github.com/juliaveronica02/learn-javascript-basic/tree/master/FullStack-Javascript-Course/lesson-3-calculator">
                     Link
                   </a>
                 </button>
               </div>
             </div>
             </div>
+
             {/*  */}
             
         </div>
