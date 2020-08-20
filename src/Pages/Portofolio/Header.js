@@ -11,6 +11,8 @@ import Database from "../../Images/database.png";
 import Csharp from "../../Images/csharp.png";
 import Photoshop from "../../Images/photoshop.png";
 import Photography from "../../Images/photography.png";
+import AWS from "../../Images/aws.png";
+import Golang from "../../Images/golang.png";
 import Portfolio from "./Portfolio.js";
 export default class componentName extends Component {
   render() {
@@ -30,23 +32,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">HTML</h4>
-                {/* <div class="text-ellipsis">
-                  <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
-                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
-                    sumo altera scripta per, eius ullum feugait id duo. At
-                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
-                    posse facilisis eos. Aliquid philosophia contentiones id
-                    eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div> */}
               </div>
-              {/* <div className="mb-2 d-flex justify-content-center">
-                <button className="btn btn-primary" style={{ width: "55%" }}>
-                  ReadMore >>
-                </button>
-              </div> */}
             </div>
           </div>
           {/* CSS CARD. */}
@@ -57,23 +43,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">CSS</h4>
-                {/* <div class="text-ellipsis">
-                  <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
-                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
-                    sumo altera scripta per, eius ullum feugait id duo. At
-                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
-                    posse facilisis eos. Aliquid philosophia contentiones id
-                    eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div> */}
               </div>
-              {/* <div className="mb-2 d-flex justify-content-center">
-                <button className="btn btn-primary" style={{ width: "55%" }}>
-                  ReadMore >>
-                </button>
-              </div> */}
             </div>
           </div>
           {/* BOOTSTRAP CARD. */}
@@ -84,23 +54,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Bootstrap</h4>
-                {/* <div class="text-ellipsis">
-                  <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
-                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
-                    sumo altera scripta per, eius ullum feugait id duo. At
-                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
-                    posse facilisis eos. Aliquid philosophia contentiones id
-                    eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div> */}
               </div>
-              {/* <div className="mb-2 d-flex justify-content-center">
-                <button className="btn btn-primary" style={{ width: "55%" }}>
-                  ReadMore >>
-                </button>
-              </div> */}
             </div>
           </div>
           {/* Javascript card. */}
@@ -111,23 +65,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Javascript</h4>
-                {/* <div class="text-ellipsis">
-                  <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
-                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
-                    sumo altera scripta per, eius ullum feugait id duo. At
-                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
-                    posse facilisis eos. Aliquid philosophia contentiones id
-                    eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div> */}
               </div>
-              {/* <div className="mb-2 d-flex justify-content-center">
-                <button className="btn btn-primary" style={{ width: "55%" }}>
-                  ReadMore >>
-                </button>
-              </div> */}
             </div>
           </div>
           {/* Reactjs card. */}
@@ -138,23 +76,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Reactjs</h4>
-                {/* <div class="text-ellipsis">
-                  <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
-                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
-                    sumo altera scripta per, eius ullum feugait id duo. At
-                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
-                    posse facilisis eos. Aliquid philosophia contentiones id
-                    eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div> */}
               </div>
-              {/* <div className="mb-2 d-flex justify-content-center">
-                <button className="btn btn-primary" style={{ width: "55%" }}>
-                  ReadMore >>
-                </button>
-              </div> */}
             </div>
           </div>
           {/* Nodejs */}
@@ -165,23 +87,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Nodejs</h4>
-                {/* <div class="text-ellipsis">
-                  <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
-                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
-                    sumo altera scripta per, eius ullum feugait id duo. At
-                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
-                    posse facilisis eos. Aliquid philosophia contentiones id
-                    eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div> */}
               </div>
-              {/* <div className="mb-2 d-flex justify-content-center">
-                <button className="btn btn-primary" style={{ width: "55%" }}>
-                  ReadMore >>
-                </button>
-              </div> */}
             </div>
           </div>
           {/* Database */}
@@ -192,23 +98,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Database</h4>
-                {/* <div class="text-ellipsis">
-                  <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
-                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
-                    sumo altera scripta per, eius ullum feugait id duo. At
-                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
-                    posse facilisis eos. Aliquid philosophia contentiones id
-                    eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div> */}
               </div>
-              {/* <div className="mb-2 d-flex justify-content-center">
-                <button className="btn btn-primary" style={{ width: "55%" }}>
-                  ReadMore >>
-                </button>
-              </div> */}
             </div>
           </div>
           {/* C# */}
@@ -219,23 +109,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">C#</h4>
-                {/* <div class="text-ellipsis">
-                  <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
-                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
-                    sumo altera scripta per, eius ullum feugait id duo. At
-                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
-                    posse facilisis eos. Aliquid philosophia contentiones id
-                    eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div> */}
               </div>
-              {/* <div className="mb-2 d-flex justify-content-center">
-                <button className="btn btn-primary" style={{ width: "55%" }}>
-                  ReadMore >>
-                </button>
-              </div> */}
             </div>
           </div>
           {/* Adobe Photoshop */}
@@ -246,23 +120,7 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Adobe Photoshop</h4>
-                {/* <div class="text-ellipsis">
-                  <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
-                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
-                    sumo altera scripta per, eius ullum feugait id duo. At
-                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
-                    posse facilisis eos. Aliquid philosophia contentiones id
-                    eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div> */}
               </div>
-              {/* <div className="mb-2 d-flex justify-content-center">
-                <button className="btn btn-primary" style={{ width: "55%" }}>
-                  ReadMore >>
-                </button>
-              </div> */}
             </div>
           </div>
           {/* Photography */}
@@ -273,25 +131,32 @@ export default class componentName extends Component {
               </div>
               <div className="card-body">
                 <h4 className="card-title text-center">Photography</h4>
-                {/* <div class="text-ellipsis">
-                  <span class="text-concat">
-                    Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
-                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
-                    sumo altera scripta per, eius ullum feugait id duo. At
-                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
-                    posse facilisis eos. Aliquid philosophia contentiones id
-                    eos, per cu atqui option disputationi, no vis nobis vidisse.
-                    Eu has mentitum conclusionemque, primis deterruisset est in.
-                  </span>
-                </div> */}
               </div>
-              {/* <div className="mb-2 d-flex justify-content-center">
-                <button className="btn btn-primary" style={{ width: "55%" }}>
-                  ReadMore >>
-                </button>
-              </div> */}
             </div>
           </div>
+           {/* AWS */}
+           <div className="col-md-3 mb-3">
+            <div className="card" style={{ width: "15rem" }}>
+              <div className="rounded-circle">
+                <img src={AWS} alt="..." />
+              </div>
+              <div className="card-body">
+                <h4 className="card-title text-center">AWS</h4>
+              </div>
+            </div>
+          </div>
+          {/* Golang */}
+          <div className="col-md-3 mb-3">
+            <div className="card" style={{ width: "15rem" }}>
+              <div className="rounded-circle">
+                <img src={Golang} alt="..." />
+              </div>
+              <div className="card-body">
+                <h4 className="card-title text-center">Golang</h4>
+              </div>
+            </div>
+          </div>
+          {/* ending */}
           <Portfolio />
         </div>
       </div>
