@@ -4,6 +4,7 @@ import WeatherApp from "./../../Images/WeatherApp.png"
 import trishop from "./../../Images/trishop.png"
 import chevrolet from "./../../Images/chevrolet.png"
 import calculator from "./../../Images/calculator.png"
+import reactNative1 from "./../../Images/RN-1.jpg"
 
 export default class componentName extends Component {
   render() {
@@ -139,9 +140,38 @@ export default class componentName extends Component {
               </div>
             </div>
             </div>
-
-            {/*  */}
-            
+            {/* React-Native */}
+            <div className="col-md-4 mb-3 pb-0">
+            <div className="card">
+            {/* <div className="card" style={{ width: "14rem" }}> */}
+              <div className="rounded-circle pb-0">
+                <img src={reactNative1} alt="..." />
+              </div>
+              <div className="card-body pb-0">
+                <h4 className="card-title text-center">Styling</h4>
+                <div class="text-ellipsis">
+                  <span class="text-concat">
+                    {/* Lorem ipsum dolor sit amet, nibh eleifend cu his, porro
+                    fugit mandamus no mea. Sit tale facete voluptatum ea, ad
+                    sumo altera scripta per, eius ullum feugait id duo. At
+                    nominavi pericula persecuti ius, sea at sonet tincidunt, cu
+                    posse facilisis eos. Aliquid philosophia contentiones id
+                    eos, per cu atqui option disputationi, no vis nobis vidisse.
+                    Eu has mentitum conclusionemque, primis deterruisset est in. */}
+                    First time styling in react-native and following step by step from react native documentations. 
+                  </span>
+                </div>
+              </div>
+              <div className="mb-2 d-flex justify-content-center mt-2 mt-1">
+                <button className="btn btn-primary" style={{ width: "25%" }}>
+                  <a  className="text-light" href="https://github.com/juliaveronica02/learn-react-native">
+                    Link
+                  </a>
+                </button>
+              </div>
+            </div>
+            </div>
+            {/* ending. */}
         </div>
       </div>
     );
