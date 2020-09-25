@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.7a40fd29.chunk.css",
-    "main.js": "/static/js/main.af70c622.chunk.js",
-    "main.js.map": "/static/js/main.af70c622.chunk.js.map",
+    "main.js": "/static/js/main.6da54d37.chunk.js",
+    "main.js.map": "/static/js/main.6da54d37.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.71461153.js",
     "runtime-main.js.map": "/static/js/runtime-main.71461153.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.b35999b6.chunk.js": "/static/js/2.b35999b6.chunk.js",
-    "static/js/2.b35999b6.chunk.js.map": "/static/js/2.b35999b6.chunk.js.map",
+    "static/js/2.0f14196b.chunk.js": "/static/js/2.0f14196b.chunk.js",
+    "static/js/2.0f14196b.chunk.js.map": "/static/js/2.0f14196b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a1d278e50b7e03e258f6d1095e5aa82e.js": "/precache-manifest.a1d278e50b7e03e258f6d1095e5aa82e.js",
+    "precache-manifest.d164397698a5195f0cab252633526c05.js": "/precache-manifest.d164397698a5195f0cab252633526c05.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.7a40fd29.chunk.css.map": "/static/css/main.7a40fd29.chunk.css.map",
-    "static/js/2.b35999b6.chunk.js.LICENSE.txt": "/static/js/2.b35999b6.chunk.js.LICENSE.txt",
+    "static/js/2.0f14196b.chunk.js.LICENSE.txt": "/static/js/2.0f14196b.chunk.js.LICENSE.txt",
     "static/media/1.jpeg": "/static/media/1.993cbf22.jpeg",
     "static/media/Home.css": "/static/media/3.9a27fa14.jpg",
     "static/media/RN-1.jpg": "/static/media/RN-1.c4e3be8e.jpg",
@@ -28,6 +28,7 @@
     "static/media/golang.png": "/static/media/golang.0e79e445.png",
     "static/media/myCV.pdf": "/static/media/myCV.b8c7401d.pdf",
     "static/media/nodejs.png": "/static/media/nodejs.d3929e00.png",
+    "static/media/personalWeb.png": "/static/media/personalWeb.266120d6.png",
     "static/media/photoshop.png": "/static/media/photoshop.2a64faff.png",
     "static/media/react-native.png": "/static/media/react-native.d2cd82e8.png",
     "static/media/react.png": "/static/media/react.d588ea23.png",
@@ -36,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.71461153.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.b35999b6.chunk.js",
+    "static/js/2.0f14196b.chunk.js",
     "static/css/main.7a40fd29.chunk.css",
-    "static/js/main.af70c622.chunk.js"
+    "static/js/main.6da54d37.chunk.js"
   ]
 }
